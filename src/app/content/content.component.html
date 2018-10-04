@@ -1,0 +1,19 @@
+<div class="container">
+  <mat-grid-list cols="12" rowHeight="200px">
+    <mat-grid-tile
+      *ngFor="let tile of tiles"
+      [colspan]="tile.cols"
+      [rowspan]="tile.rows">
+      <mat-card>{{ tile.text }}</mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+
+<div class="bar">
+  <mat-progress-bar
+    [color]="color"
+    [mode]="mode"
+    [value]="value">
+  </mat-progress-bar>
+</div>
+<button mat-raised-button (click)="loaded()">Basic</button>

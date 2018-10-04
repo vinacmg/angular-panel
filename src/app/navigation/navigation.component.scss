@@ -1,0 +1,52 @@
+.hamburguer {
+    cursor: pointer;
+}
+
+.nav {
+    max-width: 15vw;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+div.menu {
+    margin-top: 56px;
+}
+
+mat-sidenav {
+    margin-right: 0;
+    background: rgb(219, 64, 25);
+}
+
+mat-sidenav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+mat-sidenav ul li h3{
+    margin: 0;
+    padding: 10px 20px 10px 10px;
+    cursor: pointer;
+}
+
+mat-sidenav ul li:hover {
+    background: black;
+}
+
+/*
+mat-sidenav-content {
+    background: linear-gradient(to right, rgb(228, 77, 38), rgb(241, 101, 41));
+}
+
+mat-sidenav-container {
+    background: rgb(228, 77, 38);
+}
+*/
+
+mat-toolbar {
+    height: 56px;
+    //background: linear-gradient(to right, rgb(228, 77, 38), rgb(219, 64, 25));
+}
