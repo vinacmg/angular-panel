@@ -2,8 +2,8 @@
     <mat-sidenav #sidenav mode="side" class="nav mat-typography" [(opened)]="opened">
       <div class="menu">
         <ul>
-          <li><h3>Home</h3></li>
-          <li><h3>Conteúdo</h3></li>
+          <li><h3 (click)="routeToDashboard()">Dashboard</h3></li>
+          <li><h3 (click)="routeToForm()">Form</h3></li>
         </ul>
       </div>
     </mat-sidenav>
